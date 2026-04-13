@@ -1,0 +1,339 @@
+@media screen and (max-width: 1500px) {
+    /* crausal belt */
+    #crasual-div h2 {
+        font-size: 20px;
+    }
+    #crasual-div p {
+        font-size: 16px;
+    }
+
+    /* Contact sectiion */
+    #contact-form {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 1150px) {
+         
+    /* Utility elements */
+    #scroll-top {
+        left: 90%;
+    }
+    
+    /* main section */
+    #tag-line {
+        font-size: 30px;
+    }
+    #book-consultant-btn {
+        font-size: 18px;
+    }
+
+    /* crausal belt */
+    #crasual-div div {
+        background-color: skyblue;    
+        width: 25%;
+    }
+    #crasual-div h2 {
+        font-size: 16px;
+    }
+    #crasual-div p {
+        font-size: 14px;
+    }
+
+    /* service section */
+    .service-boxes {
+        margin-top: 4%;
+    }
+
+    /* footer section */
+    #footer-logo {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    
+    /* section */
+    section {
+        padding-top: 12%;
+    }
+    /* Utility elements */
+    #scroll-top {
+        width: 55px;
+        left: 90%;
+    }
+    #consultant-float-btn {
+        font-size: 15px;
+    }
+
+    /* about section */
+    #about-section {    
+        width: 90%;
+    }    
+
+    /* footer section */
+    #footer-logo {
+        width: 40px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    
+    /* Navigation section */
+    nav {
+        justify-content: space-between;
+        padding: 3% 10%;
+    }
+    nav ul {
+        display: none;
+    }    
+
+    #more-btn {
+        display: block;
+    }
+
+    #snd-nav {
+        padding: 0;
+    }
+
+    #snd-nav ul {
+        display: flex;        
+    }
+
+    /* main section */
+    #main-section {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: start;  
+    }
+    
+    /* main section */
+    #tag-line {
+        text-align: center;
+        margin-left: 1%;        
+    }
+    
+    #book-consultant-btn {
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    
+
+    /* crausal belt */
+    #crasual-container {
+        display: none;
+    }
+    #carousel {
+        display: block;
+    }
+    .explore-btn {
+        font-size: 14px;
+        padding: 12px;
+        padding: 16px;
+        margin: 4%;
+    }
+
+    /* sections */
+    section {
+        padding: 40px 10px;
+        margin: 20px;
+        padding-top: 15%;
+    }
+
+    /* service section */
+    .service-boxes div {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    
+    /* main section */
+    #fst-main {        
+        width: 90%;
+        font-size: 30px;
+        text-align: center;
+    }
+    #book-consultant-btn {
+        margin-left: 32%;
+    }
+
+    /* service section */
+    .service-boxes {
+        flex-direction: column;        
+    }
+    .service-boxes:nth-child(odd) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-boxes div {
+        width: 60%;
+        text-align: left;
+        margin: 2% auto;
+    }
+
+    /* about section */
+    #about-section {    
+        width: 90%;
+    }
+    #champ-img {
+        width: 80%;
+        margin: 4% auto;
+    }
+
+    /* contact section */
+    #contact-section {    
+        display: flex;
+        flex-direction: column;
+    }
+    #contact-img {
+        width: 60%;
+    }
+    form {
+        width: 80%;
+    }
+
+    /* footer section*/
+    #footer-logo {
+        width: 35px;        
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+    
+    #footer-img {
+        width: 300px;
+    }
+    
+    footer ul {
+        font-size: 14px;    
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    /* 2nd nav */
+    #snd-nav {
+        width: 45vw;
+        left: 55%;
+    }
+    /* main section */
+    #book-consultant-btn {
+        margin-left: 30%;
+    }
+
+    /* sections */
+    section {
+        padding: 20px 5px;
+        padding-top: 20%;
+    }
+    /* service section */
+    .service-boxes div {
+        width: 80%;
+    }
+    
+    /* about section */
+    .about-div {    
+        width: 95%;
+    }
+
+    /* Contact section */
+    #contact-section {        
+        width: 95%;
+    }
+    form {
+        width: 90%;
+    }
+
+    /* footer section */
+    #footer-div {        
+        text-align: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #footer-div div {
+        margin: 10px;
+    }
+
+    #footer-img {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    nav {        
+        padding: 3% 10%;
+    }
+    /* 2nd nav */
+    #snd-nav {
+        width: 75vw;
+        left: 25%;        
+    }
+    #tag-line {
+       font-size: 25px;       
+    }
+    #book-consultant-btn {
+        font-size: 16px;
+        padding: 15px 30px;
+        margin-left: 25%;
+    }
+    
+    /* Utility elements */
+    #scroll-top {
+        left: 80%;
+    }
+    #consultant-float-btn {  
+        left: 5%;
+    }
+
+    /* sections */
+    section {
+        padding: 20px 5px;
+        margin: 10px;
+        padding-top: 30%;
+    }
+    /* service section */
+    .service-boxes div {
+        width: 90%;
+    }
+
+    /* about section */
+    .about-div {
+        width: 98%;
+    }
+
+    /* contact section */
+    #contact-section {
+        width: 98%;
+    }
+    #footer-img {
+        width: 300px;
+    }
+    form {
+        width: 98%;
+    }
+
+    /* footer */
+    #footer-logo {
+        width: 30px;
+        font-size: 15px;
+    }
+    footer p {
+        font-size: 10px;
+    }
+    footer ul {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #book-consultant-btn {        
+        margin-left: 22%;
+    }
+}

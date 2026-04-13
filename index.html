@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/verve-logo.png">
+    <title>vervevelocitysolutions</title>
+    
+    <!-- body fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Tagline font -->
+
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-quaries.css">
+    <link rel="stylesheet" href="color-schemes.css">
+    <link rel="stylesheet" href="crausal-belt.css">
+</head>
+<body>
+
+    <!-- Navigation section -->
+    <nav>
+        <!-- logo image -->
+        <div style="display: flex; align-items: center;">
+            <img src="./images/flyer-consulting-logo.png" alt="" width="150px">
+            <!-- <h3> Flyer Consulting </h3> -->
+        </div>
+        
+        <!-- nav links -->
+        <ul type="none">
+            <li><a href="#">Home</a></li>|
+            <li><a href="#service-section">Services</a></li>|
+            <li><a href="#about-section">About Us</a></li>|
+            <li><a href="#contact-section">Contact Us</a></li>
+        </ul>
+
+        <img src="./images/more.png" alt="" width="25px" id="more-btn">
+    </nav>
+
+    <!-- 2nd nav -->
+    <div id="blank-div" style="display: none;">
+        <nav id="snd-nav">
+        <div id="snd-nav-cross">
+            <img src="./images/cross-btn.png" alt="" width="100%">
+        </div>
+        <!-- nav links -->
+        <ul type="none">
+            <a href="#" class="snd-nav-list"><li>Home</li>
+            <a href="#service-section" class="snd-nav-list"><li>Services</li></a>
+            <a href="#about-section" class="snd-nav-list"><li>About Us</li></a>
+            <a href="#contact-section" class="snd-nav-list"><li>Contact Us</li></a>
+        </ul>
+
+        </nav>
+
+    </div>
+
+
+    <!-- Utility elements -->
+
+    <!-- up-arrow-home-btn -->
+    <div id="scroll-top">
+       <a href="#"><img src="./images/up-home-btn.png" alt="" width="100%"></a>
+    </div>
+
+    <!-- book-consultant-btn -->
+    <a href="#" id="consultant-float-btn">Book Consultant Now</a>
+
+    <!-- Main section -->
+    <main>
+        <!-- main-section -->
+        <div id="main-section">            
+                <h2 id="tag-line">
+                    Take Control of Your Career <br> with Our World-Class <br>Consultations
+                </h2>
+                <button id="book-consultant-btn">
+                    BOOK CONSULTANT
+                </button>                
+        </div>
+
+    </main>
+
+    <!-- crausal belt -->
+    <div id="crasual-container">
+        <h3>We help individuals build a career of their dreams <br> with our services.</h3>
+
+        <div id="crasual-div">
+            <div>
+                <h2>Identify Your Talents​</h2>
+                <p>
+                    We work closely with you to understand and identify your career goals that can be converted into an actionable plan.​
+                </p>
+            </div>
+
+            <div>
+                <h2>Chart Opportunities​</h2>
+                <p>
+                    The details of your capabilities are jotted and career opportunities sorted to help and guide you to take the first step and set things up.
+                </p>
+            </div>
+
+            <div>
+                <h2>Map Talent upon Careers</h2>
+                <p>
+                    Setting up a plan is not enough. We help you think ahead and encourage you to reach out to the right career opportunities with a plan.
+                </p>
+            </div>
+        </div>
+
+        <button class="explore-btn">
+            Explore more
+        </button>
+    </div>
+
+    <div class="carousel" id="carousel">
+        <div class="track" id="track">
+          <!-- We'll clone first and last in JS for clean DOM; but here's the logical 3 slides -->
+          <div class="slide">
+                <h2>Identify Your Talents​</h2>
+                <p>
+                    We work closely with you to understand and identify your career goals that can be converted into an actionable plan.​
+                </p>
+
+                <button class="explore-btn">
+                    Explore more
+                </button>
+            </div>
+
+            <div class="slide">
+                <h2>Chart Opportunities​</h2>
+                <p>
+                    The details of your capabilities are jotted and career opportunities sorted to help and guide you to take the first step and set things up.
+                </p>
+
+                <button class="explore-btn">
+                    Explore more
+                </button>
+            </div>
+
+            <div class="slide">
+                <h2>Map Talent upon Careers</h2>
+                <p>
+                    Setting up a plan is not enough. We help you think ahead and encourage you to reach out to the right career opportunities with a plan.
+                </p>
+
+                <button class="explore-btn">
+                    Explore more
+                </button>
+            </div>
+        </div>
+
+        <button class="btn prev" id="prev" aria-label="Previous">&#10094;</button>
+        <button class="btn next" id="next" aria-label="Next">&#10095;</button>
+
+        <div class="dots" id="dots"></div>
+      </div>
+
+    <!-- Service section -->
+    <section id="service-section" class="sec-anim">
+
+        <h1> Services </h1>
+        <hr>
+
+        <div id="service-info-box">
+            <div class="service-boxes">
+                <div class="service-img">
+                    <img src="./images/service-img-1.avif" alt="" width="100%">
+                </div>
+                <div>
+                    <h2>Entrepreneurship Coaching</h2>
+                    <p>
+                        As professional entrepreneurship coaches we specialize in walking the line between being a cheerleader and a harsh realist. We push you to new heights that are sometimes uncomfortable but are necessary to grow and scale your business. We stick with you through thick and thin and make sure all objectives are growth driven so you start seeing results quickly.
+                    </p>
+
+                    <button class="service-learn-more-btn">Learn More</button>
+                </div>                
+            </div>
+            
+            <div class="service-boxes">
+                <div class="service-img">
+                    <img src="./images/service-img-2.avif" alt="" width="100%">
+                </div>
+                <div>
+                    <h2>Money and Finance Coaching</h2>
+                    <p>
+                        We are reliable money and finance coaches who focus on improving the financial status for both personal or business clients. Our main objective is to address both the black and white numbers, as well as the emotional relationship with money. We’ll also help you come up with a step-by-step plan to help you reach specific financial goals and to have the mindset and habits to support long term financial success.
+                    </p>
+
+                    <button class="service-learn-more-btn">Learn More</button>
+                </div>                
+            </div>
+            
+            <div class="service-boxes">
+                <div class="service-img">
+                    <img src="./images/service-img-3.avif" alt="" width="100%">
+                </div>
+                <div>
+                    <h2>Team Coaching</h2>
+                    <p>
+                        As a team coach we drive your team towards accomplishing a goal, whether it be completing a particular project, starting a new business unit or meeting sales efforts. We will help you in confronting and addressing team-busters like groupthink, micromanaging, and unresolved conflict to build a better team for your organization. We will ask questions that help your team to decide what’s best for them.
+                    </p>
+
+                    <button class="service-learn-more-btn">Learn More</button>
+                </div>                
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- About Us section -->
+    <section id="about-section" class="sec-anim">
+
+        <h1> About Us </h1>
+        <hr>
+
+        <div id="about-div-1" class="about-div">            
+            <div id="champ-img">
+                <img src="./images/champions.jpg" alt="" width="100%">
+            </div>
+
+            <h2>
+                Coaching for Champions!​
+            </h2>
+            <p>
+                Let’s focus on revenues, more profits, productive teams, improved cash flows and simply just more peace of mind.​
+            </p><br>
+            <p>
+                With 10 years of experience in helping businesses grow, we’ve mastered the skills of understanding business requirements irrespective of the industry they serve. Our clients vary from tiny start-ups to larger corporations who wish to take their business higher.
+                <br><br>
+                We’ve helped entrepreneurs set up a business, build productive teams and make the most of the available resources.
+            </p>
+        </div>
+
+        <div id="about-div-2" class="about-div">
+            <div id="mission-vision-img">
+                <img src="./images/mission-vision.png" alt="" width="100%">
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <div style="width: 45%;">
+                    <h2>Vision</h2>
+                    <p>
+                        We strive to enable our clients to have clear direction, focus and achieve success in all the areas of their business.
+                    </p>
+                </div>
+
+                <div style="width: 45%;">
+                    <h2>Mission.</h2>
+                    <p>
+                        Bring clarity to the priorities, strategies and opportunities within businesses or roles to help them achieve the exceptional results they desire.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="about-div-3" class="about-div">
+            <div>
+                <div class="about-dir-img">
+                    <img src="./images/default-avatar.png" alt="" width="100%">
+                </div>
+                <h2>Adverd Joshi</h2>
+                <h3>Director</h3>
+                <p>
+                    Bring clarity to the priorities, strategies and opportunities within businesses or roles to help them achieve the exceptional results they desire.
+                </p>
+            </div>            
+        </div>
+
+
+    </section>
+
+    <!-- Contact Us Section  -->
+     <section id="contact-section" class="sec-anim">
+        <div id="contact-box">
+            <h1>Conact Us</h1>        
+            <form action="" id="contact-form">
+                <input type="text" name="" id="name" placeholder="Name" class="contact-input">
+                <input type="text" name="" id="email" placeholder="Email" class="contact-input">
+                <textarea name="" id="message" placeholder="Write your message..." class="contact-input"></textarea>
+                <input type="submit" name="" id="submit-btn" value="Send">
+                
+            </form>
+        </div>
+
+    </section>
+    
+
+    <!-- Footer section -->
+    <footer>
+        <div id="footer-div" style="display: flex; justify-content: space-between;">
+            <div>
+                <div id="footer-logo">
+                    <img src="./images/flyer-consulting-logo.png" alt="" width="150px">
+                    <!-- <h2> Flyer Consulting </h2> -->
+                </div>
+                
+                <div id="footer-contact-box">
+                    <p>
+                        Address: Dehradun, India
+                    </p>
+                    <p style="margin-top: 20px;">
+                        contact: +91 69876 54321
+                    </p>
+                </div>
+            </div>
+            
+            <div>
+                
+                <div id="footer-img">
+                    <img src="./images/footer-img.jpg" alt="" width="100%">
+                </div>
+
+                <!-- top nav links -->
+                <ul type="none" style="display: flex; margin-bottom: 10px; font-size: 14px; font-weight: bold;">
+                    <li style="margin: 10px;"><a href="#" style="color: rgb(0, 0, 0); text-decoration: none;">Home</a></li>
+                    <li style="margin: 10px;"><a href="#service-section" style="color: rgb(0, 0, 0); text-decoration: none;">Services</a></li>
+                    <li style="margin: 10px;"><a href="#about-section" style="color: rgb(0, 0, 0); text-decoration: none;">About Us</a></li>
+                    <li style="margin: 10px;"><a href="#contact-section" style="color: rgb(0, 0, 0); text-decoration: none;">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+        <div style="text-align: center; margin: 20px;">
+            <p>Copyright © 2026 Flyer Consultnacy </p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="more-btn.js"></script>
+    <script src="crausal-belt.js"></script>
+
+</body>
+</html>

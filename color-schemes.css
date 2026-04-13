@@ -1,0 +1,59 @@
+:root {
+    /* nav */
+    --nav: rgb(240, 251, 255);
+
+    /* nav list */
+    --navlist: rgb(26, 57, 66);
+    --navlist-2: rgb(66, 66, 66);
+
+    /* nav list hover */
+    --navlist-hover: rgb(11, 86, 90);
+    --navlist-2-hover: rgb(19, 19, 19);
+
+    /* blank div */
+    --blank-div: rgba(0, 0, 0, 0.151);    
+
+    /* side nav */
+    --side-nav: rgb(248, 242, 231);
+
+    /* body */
+    --body: rgb(255, 255, 255);
+
+    /* crasual body */
+    --crasual-body: rgb(11, 11, 11);
+
+    /* heading color */
+    --h1: rgb(179, 96, 96);
+    --h2: rgb(2, 98, 128);
+    --h3: rgb(161, 160, 160);
+    --h4: rgb(0, 0, 0);
+    --h5: rgb(0, 0, 0);
+    --h6: rgb(0, 0, 0);
+
+    /* text color */
+    --text-1: black;
+    --text-2: rgb(255, 255, 255);
+
+    /* buttons */
+    --button-1: rgb(73, 108, 148);
+    --button-2: rgb(20, 181, 245);
+    --button-3: rgb(83, 170, 197);
+
+    /* button text */
+    --button-text-1: rgb(255, 255, 255);
+    --button-text-2: rgb(255, 255, 255);
+    --button-text-3: rgb(255, 255, 255);
+    
+    /* buttons hover*/
+    --button-1-hover: rgb(45, 83, 126);
+    --button-2-hover: rgb(77, 77, 16);
+    --button-3-hover: rgb(43, 118, 141);
+
+    /* send btn */
+    --send-btn: black;
+    --send-btn-text: white;
+    --send-btn-hover: gray;
+
+    /* footer color */
+    --footer: rgb(199, 210, 214);
+}
